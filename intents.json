@@ -1,0 +1,128 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, how can I help?", "Hi there, I am your bot. How can i help?", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "Name",
+         "patterns": ["What is your name?", "Who are you?", "With whom i am chatting?"],
+         "responses": ["I am your PPS Chat bot assistant", "Surname PPS describes my name. PPS Chat bot. How may I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["Help", "How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through in Service Manager"],
+         "context": [""]
+        },
+        {"tag": "Service_Manager",
+         "patterns": ["How to open service manager?", "where to find service manager link?"],
+         "responses": ["Goto home page -> Click on Website A-Z -> S -> Service Manager"],
+         "context": [""]
+        },
+        {"tag": "PM",
+         "patterns": ["How to open PM?", "PM tickets?"],
+         "responses": ["Goto home page -> Computers & Technology -> Service Manager (IT Pro) -> Select Problem Management -> Select Create New Problem -> Select Problem and follow the steps in RCA_PM-Ticket Creation.pdf"],
+         "context": [""]
+        },
+        {"tag": "Cost_tab",
+         "patterns": ["Convert time", "Ticket time", "Converting time"],
+         "responses": ["Please provide min:"],
+         "context": ["search_min1", "search_min2", "search_min3", "search_min4", "search_min5", "search_min6", "search_min7", "search_min8", "search_min9", "search_min10"]
+        },
+        {"tag": "search_min1",
+         "patterns": ["1"],
+         "responses": ["You need to enter: 0.02"],
+         "context": [""]
+        },
+        {"tag": "search_min2",
+         "patterns": ["2"],
+         "responses": ["You need to enter: 0.03"],
+         "context": [""]
+        },
+        {"tag": "search_min3",
+         "patterns": ["3"],
+         "responses": ["You need to enter: 0.05"],
+         "context": [""]
+        },
+        {"tag": "search_min4",
+         "patterns": ["4"],
+         "responses": ["You need to enter: 0.07"],
+         "context": [""]
+        },
+        {"tag": "search_min5",
+         "patterns": ["5"],
+         "responses": ["You need to enter: 0.08"],
+         "context": [""]
+        },
+        {"tag": "search_min6",
+         "patterns": ["6"],
+         "responses": ["You need to enter: 0.10"],
+         "context": [""]
+        },
+        {"tag": "search_min7",
+         "patterns": ["7"],
+         "responses": ["You need to enter: 0.12"],
+         "context": [""]
+        },
+        {"tag": "search_min8",
+         "patterns": ["8"],
+         "responses": ["You need to enter: 0.13"],
+         "context": [""]
+        },
+        {"tag": "search_min9",
+         "patterns": ["9"],
+         "responses": ["You need to enter: 0.15"],
+         "context": [""]
+        },
+        {"tag": "search_min10",
+         "patterns": ["10"],
+         "responses": ["You need to enter: 0.17"],
+         "context": [""]
+        },
+        {"tag": "POC",
+         "patterns": ["Need to know POC", "who is the POC", "POC"],
+         "responses": ["Please provide the client code:"],
+         "context": ["client_code", "client_code1", "client_code2", "client_code3", "client_code4"]
+        },
+        {"tag": "client_code",
+         "patterns": ["ibc"],
+         "responses": ["Amanda Bridgens (BA) and Mithilesh Kumar (IT)"],
+         "context": [""]
+        },
+        {"tag": "client_code1",
+         "patterns": ["hmk"],
+         "responses": ["Geeta Sasikumar (BA) and Praveen Rishikeshan (IT)"],
+         "context": [""]
+        },
+        {"tag": "client_code2",
+         "patterns": ["mn"],
+         "responses": ["Jesna George (BA) and Sushant Kumar (IT)"],
+         "context": [""]
+        },
+        {"tag": "client_code3",
+         "patterns": ["nd"],
+         "responses": ["Amanda Bridgens (BA) and Rajeev Malla (IT)"],
+         "context": [""]
+        },
+        {"tag": "client_code4",
+         "patterns": ["wy"],
+         "responses": ["Jesna George (BA) and Rahul Sinha (IT)"],
+         "context": [""]
+        }
+    ]
+}
